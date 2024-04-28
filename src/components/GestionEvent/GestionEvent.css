@@ -7,11 +7,11 @@
   margin-left: 80px;
 }
 
-.column-1 {
+.content {
   flex-basis: 50%;
 }
 
-.column-2 {
+.content-img {
   flex-basis: 50%;
 }
 
@@ -20,7 +20,7 @@
   height: auto;
 }
 
-.text-1 {
+.heading {
   text-align: left;
   margin-top: 50px;
   font-size: 50px;
@@ -30,7 +30,7 @@
   color: black;
 }
 
-.text-2 {
+.text {
   text-align: left;
   font-family: "inter var", sans-serif;
   /* font-size: 15px; */
