@@ -1,0 +1,82 @@
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.column-1 {
+  flex-basis: 50%;
+}
+
+.column-2 {
+  flex-basis: 50%;
+}
+
+.img-planner {
+  width: 500px;
+  height: auto;
+}
+
+.text-1 {
+  text-align: left;
+  margin-top: 50px;
+  font-size: 50px;
+  margin-left: 2%;
+  font-family: "inter var", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.text-2 {
+  text-align: left;
+  font-family: "inter var", sans-serif;
+  /* font-size: 15px; */
+  margin-left: 2%;
+  /* font-weight: 200; */
+  color: black;
+}
+
+/* header.css */
+
+.actions button {
+  /* Style commun à tous les boutons */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 2%;
+  margin-top: 30px;
+}
+
+.actions button:hover {
+  /* Style lors du survol */
+  background-color: #fff;
+}
+
+.inscription {
+  /* Style spécifique au bouton "Inscription" */
+  background-color: #000; /* Noir */
+  color: #fff; /* Blanc */
+}
+
+.inscription:hover {
+  /* Style lors du survol */
+  background-color: #fff; /* Blanc */
+  color: #000; /* Noir */
+}
+
+.connexion {
+  /* Style spécifique au bouton "Connexion" */
+  background-color: #fff; /* Blanc */
+  color: #000; /* Noir */
+}
+
+.connexion:hover {
+  /* Style lors du survol */
+  background-color: #000; /* Noir */
+  color: #fff; /* Blanc */
+}
