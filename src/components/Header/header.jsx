@@ -1,6 +1,5 @@
-import React from "react";
+// import React from "react";
 import "./header.css";
-// import planner from "../../assets/Planner.png"
 
 const Header = () => {
   return (
