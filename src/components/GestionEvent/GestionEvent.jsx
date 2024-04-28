@@ -9,7 +9,7 @@ function GestionEvent() {
           <img className="img-planner-2" src="src/assets/Planner2.png" alt="" />
         </div>
         <div className="content">
-          <p className="heading">Facilitez la gestion de vos événements</p>
+          <h2 className="heading">Facilitez la gestion de vos événements</h2>
           <p className="text">
             Avec Uzima Events, vous pouvez facilement créer, modifier, afficher
             et supprimer des événements. Simplifiez votre processus de

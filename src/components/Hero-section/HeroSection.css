@@ -1,0 +1,40 @@
+.container-hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 110px;
+  margin-left: 80px;
+}
+
+.section-title {
+  flex-basis: 50%;
+}
+
+.bloc-img {
+  flex-basis: 50%;
+}
+
+.online-img {
+  width: 500px;
+  height: auto;
+}
+
+.title {
+  text-align: left;
+  margin-top: 50px;
+  font-size: 50px;
+  margin-left: 2%;
+  font-family: "inter var", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.subtitle {
+  text-align: left;
+  font-family: "inter var", sans-serif;
+  /* font-size: 15px; */
+  margin-left: 2%;
+  /* font-weight: 200; */
+  color: black;
+}
