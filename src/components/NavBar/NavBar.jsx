@@ -1,27 +1,27 @@
-// import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <nav>
       <span className="Logo">
-        <a href="/">Uzima Events</a>{" "}
+        <Link to="/">Uzima Events</Link>{" "}
       </span>
       <ul>
         <li>
-          <a href="/">Accueil</a>
+          <Link to="/">Accueil</Link>
         </li>
         <li>
-          <a href="/profil">Profil</a>
+          <Link to="/profil">Profil</Link>
         </li>
         <li>
-          <a href="/evenements">Evénements</a>
+          <Link to="/evenements">Evénements</Link>
         </li>
         <li>
-          <a href="/a propos">A propos</a>
+          <Link to="/about">A propos</Link>
         </li>
         <li>
-          <a href="/contacts">Contacts</a>
+          <Link to="/contacts">Contacts</Link>
         </li>
       </ul>
     </nav>

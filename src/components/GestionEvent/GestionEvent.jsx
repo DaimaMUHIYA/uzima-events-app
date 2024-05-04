@@ -1,4 +1,4 @@
-// import React from "react";
+import { Link } from "react-router-dom";
 import "./GestionEvent.css";
 
 function GestionEvent() {
@@ -16,7 +16,9 @@ function GestionEvent() {
             planification et de gestion des événements.
           </p>
           <div className="discovery">
-            <button className="Découvrir">Découvrir</button>
+            <Link to="/about">
+              <button className="Découvrir">Découvrir</button>
+            </Link>
           </div>
         </div>
       </div>

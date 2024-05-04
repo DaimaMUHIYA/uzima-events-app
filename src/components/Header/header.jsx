@@ -1,4 +1,4 @@
-// import React from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
@@ -15,8 +15,12 @@ const Header = () => {
               vous
             </p>
             <div className="actions">
-              <button className="inscription">inscription</button>
-              <button className="connexion">connexion</button>
+              <Link to="/auth/register">
+                <button className="inscription">Inscription</button>
+              </Link>
+              <Link to="/auth/login">
+                <button className="connexion">Connexion</button>
+              </Link>
             </div>
           </div>
           <div className="column-2">
