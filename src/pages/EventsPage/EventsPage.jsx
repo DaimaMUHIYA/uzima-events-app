@@ -16,7 +16,7 @@ function EventsPage() {
   const fetchEvents = async () => {
     try {
       const response = await axios.get("/api/events");
-      setEvents(response.data); // Ensure response.data is an array
+      setEvents(response.data);
       setIsLoading(false);
     } catch (error) {
       console.error(error);
@@ -40,7 +40,7 @@ function EventsPage() {
     <div>
       <h1>Decouvrez les événements</h1>
       <ul>
-        {Array.isArray(events) ? ( // Check if events is an array
+        {Array.isArray(events) ? (
           events.map((event) => <li key={event.id}>{event.name}</li>)
         ) : (
           <li>Pas d'evenements à afficher pour l'instant</li>

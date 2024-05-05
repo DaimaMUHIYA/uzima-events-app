@@ -40,7 +40,6 @@
 }
 
 .discovery button {
-  /* Style commun à tous les boutons */
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -51,7 +50,6 @@
 }
 
 .actions button:hover {
-  /* Style lors du survol */
   background-color: #fff;
 }
 
@@ -61,7 +59,6 @@
 }
 
 .Découvrir:hover {
-  /* Style lors du survol */
   background-color: #fff;
   color: #000;
 }
