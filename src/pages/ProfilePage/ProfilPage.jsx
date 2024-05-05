@@ -1,9 +1,9 @@
-// import React from "react";
+import "./ProfilePage.css";
 
-function AboutPage() {
+function ProfilPage() {
   return (
     <div className="profile-container">
-      <h1>A propos</h1>
+      <h1>Profil</h1>
       <img
         className="profile-img"
         src="src/assets/Under construction-pana.png"
@@ -12,4 +12,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default ProfilPage;

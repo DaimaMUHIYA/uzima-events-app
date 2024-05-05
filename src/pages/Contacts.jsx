@@ -2,10 +2,13 @@
 
 function Contacts() {
   return (
-    <>
+    <div className="profile-container">
       <h1>Contacts</h1>
-      <p>En cours de developpement...</p>
-    </>
+      <img
+        className="profile-img"
+        src="src/assets/Under construction-pana.png"
+      />
+    </div>
   );
 }
 

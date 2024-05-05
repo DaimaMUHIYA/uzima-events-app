@@ -23,8 +23,8 @@ nav {
 }
 
 li {
-  display: inline-block; /* Alignement des éléments horizontalement */
-  margin-right: 30px; /* Espacement entre les éléments */
+  display: inline-block;
+  margin-right: 30px;
   font-family: "inter var", sans-serif;
   color: black;
   font-size: 1rem;
@@ -32,10 +32,10 @@ li {
 }
 
 a {
-  text-decoration: none; /* Suppression du soulignement */
+  text-decoration: none;
   list-style: none;
-  text-decoration: none; /* Supprime le soulignement par défaut */
-  color: inherit; /* Hérite la couleur du texte du parent */
-  cursor: pointer; /* Définit le curseur de la souris en tant que pointeur */
-  outline: none; /* Supprime la bordure de contour */
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
 }
