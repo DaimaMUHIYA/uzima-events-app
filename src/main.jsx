@@ -21,11 +21,11 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "/profil",
+        path: "/profile",
         element: <ProfilPage />,
       },
       {
-        path: "/evenements",
+        path: "/events",
         element: <EvenementsPage />,
       },
       {

@@ -13,7 +13,7 @@ const LoginPage = () => {
     <div className="login-page">
       {/* <h1>Connexion</h1> */}
       <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">Adresse mail :</label>
         <input
           type="email"
           id="email"
@@ -22,7 +22,7 @@ const LoginPage = () => {
           required
         />
 
-        <label htmlFor="password">Mot de passe</label>
+        <label htmlFor="password">Mot de passe :</label>
         <input
           type="password"
           id="password"

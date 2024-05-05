@@ -22,7 +22,7 @@ const SignUp = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="firstName">First Name:</label>
+      <label htmlFor="firstName">Prénom :</label>
       <input
         type="text"
         name="firstName"
@@ -30,7 +30,7 @@ const SignUp = () => {
         onChange={handleChange}
       />
       <br />
-      <label htmlFor="lastName">Last Name:</label>
+      <label htmlFor="lastName">Nom :</label>
       <input
         type="text"
         name="lastName"
@@ -38,7 +38,7 @@ const SignUp = () => {
         onChange={handleChange}
       />
       <br />
-      <label htmlFor="email">Email:</label>
+      <label htmlFor="email">Adresse mail :</label>
       <input
         type="email"
         name="email"
@@ -46,7 +46,7 @@ const SignUp = () => {
         onChange={handleChange}
       />
       <br />
-      <label htmlFor="password">Password:</label>
+      <label htmlFor="password">Mot de passe :</label>
       <input
         type="password"
         name="password"
@@ -54,7 +54,7 @@ const SignUp = () => {
         onChange={handleChange}
       />
       <br />
-      <button type="submit">Inscription</button>
+      <button type="submit">S'inscrire</button>
     </form>
   );
 };
