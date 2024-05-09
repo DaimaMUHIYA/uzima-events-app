@@ -4,7 +4,7 @@ import "./index.css";
 import LandingPage from "./pages/LandingPage";
 import ProfilPage from "./pages/ProfilePage/ProfilPage";
 import EvenementsPage from "./pages/EventsPage/EventsPage";
-import AProposPage from "./pages/AboutPage";
+import AProposPage from "./pages/About/AboutPage";
 import ContactsPage from "./pages/Contacts";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./pages/Layout";

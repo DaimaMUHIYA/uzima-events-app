@@ -1,0 +1,49 @@
+/* 
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul .about-ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li .about-li {
+  margin-bottom: 10px;
+}
+
+.a-propos {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: "inter var", sans-serif;
+}
+
+.a-propos h1 {
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.a-propos h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  /* text-align: center; */
+}
