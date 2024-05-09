@@ -24,7 +24,11 @@ const Header = () => {
             </div>
           </div>
           <div className="column-2">
-            <img className="img-planner" src="src/assets/Planner.png" alt="" />
+            <img
+              className="img-planner"
+              src="https://res.cloudinary.com/dmzv0zqsb/image/upload/v1715108362/fjtvnduah5lxbpm6lq1i.png"
+              alt="events-planner"
+            />
           </div>
         </div>
       </div>

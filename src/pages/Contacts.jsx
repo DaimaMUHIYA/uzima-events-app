@@ -4,7 +4,7 @@ function Contacts() {
       <h1>Contacts</h1>
       <img
         className="profile-img"
-        src="src/assets/Under construction-pana.png"
+        src="https://res.cloudinary.com/dmzv0zqsb/image/upload/v1715108362/ncdjebqeawfp2tvh32ni.png"
       />
     </div>
   );

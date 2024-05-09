@@ -17,8 +17,8 @@ function HeroSection() {
         <div className="bloc-img">
           <img
             className="online-img"
-            src="src/assets/Online connection.png"
-            alt=""
+            src="https://res.cloudinary.com/dmzv0zqsb/image/upload/v1715108361/whke24b3ubgwdv4gmvua.png"
+            alt="events-connexion"
           />
         </div>
       </div>
