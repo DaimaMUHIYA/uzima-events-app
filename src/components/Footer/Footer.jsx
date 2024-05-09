@@ -52,13 +52,13 @@ const Footer = () => {
         </div>
         <ul className="footer-links">
           <li>
-            <a>Politique de confidentialité</a>
+            <Link to="/PrivacyPolicy">Politique de confidentialité</Link>
           </li>
           <li>
-            <a>Conditions d'utilisation</a>
+            <Link to="/TermsOfUse">Conditions d'utilisation</Link>
           </li>
           <li>
-            <a>Paramètres des cookies</a>
+            <Link to="/CookiePolicy">Paramètres des cookies</Link>
           </li>
         </ul>
       </div>

@@ -10,6 +10,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./pages/Layout";
 import SignUp from "./pages/SignUp/SignUp";
 import Login from "./pages/Login/Login";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse/TermsOfUse";
+import CookiePolicy from "./pages/CookiePolicy/CookiePolicy";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +38,18 @@ const router = createBrowserRouter([
       {
         path: "/contacts",
         element: <ContactsPage />,
+      },
+      {
+        path: "/PrivacyPolicy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "/TermsOfUse",
+        element: <TermsOfUse />,
+      },
+      {
+        path: "/CookiePolicy",
+        element: <CookiePolicy />,
       },
     ],
   },
