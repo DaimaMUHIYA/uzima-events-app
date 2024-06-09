@@ -8,7 +8,7 @@ const Header = () => {
         <div className="frame-17">
           <div className="column-1">
             <h1 className="text-1">
-              Découvrez Uzima Events, votre plateforme d'événements
+              Découvrez Uzima Events, votre plateforme d&apos;événements
             </h1>
             <p className="text-2">
               Trouvez et participez à des événements passionnants près de chez

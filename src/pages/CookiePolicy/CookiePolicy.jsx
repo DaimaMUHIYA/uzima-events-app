@@ -1,4 +1,4 @@
-import "./CookiePolicy.css"
+import "./CookiePolicy.css";
 
 function CookiePolicy() {
   return (
@@ -6,9 +6,9 @@ function CookiePolicy() {
       <h1>Politique des cookies</h1>
       <p>
         Uzima Events utilise des cookies pour améliorer votre expérience lorsque
-        vous utilisez notre application de gestion d'événements. Cette politique
-        des cookies décrit les types de cookies que nous utilisons et comment
-        vous pouvez les gérer.
+        vous utilisez notre application de gestion d&apos;événements. Cette
+        politique des cookies décrit les types de cookies que nous utilisons et
+        comment vous pouvez les gérer.
       </p>
       <h2>Que sont les cookies ?</h2>
       <p>
@@ -32,8 +32,8 @@ function CookiePolicy() {
       <p>
         Vous pouvez gérer les cookies en ajustant les paramètres de votre
         navigateur. La plupart des navigateurs vous permettent de refuser de
-        recevoir des cookies, de vous avertir lorsqu'un cookie est envoyé ou de
-        supprimer les cookies de votre disque dur.
+        recevoir des cookies, de vous avertir lorsqu&apos;un cookie est envoyé
+        ou de supprimer les cookies de votre disque dur.
       </p>
       <h2>Mises à jour de notre politique des cookies</h2>
       <p>
@@ -44,7 +44,7 @@ function CookiePolicy() {
       <h2>Contactez-nous</h2>
       <p>
         Si vous avez des questions concernant notre politique des cookies,
-        veuillez nous contacter à l'adresse suivante :
+        veuillez nous contacter à l&apos;adresse suivante :
         [contact@uzimaevents.com](mailto:contact@uzimaevents.com)
       </p>
     </div>

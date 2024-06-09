@@ -111,7 +111,7 @@ function EventsPage() {
             </li>
           ))
         ) : (
-          <li>Pas d'événements à afficher pour l'instant</li>
+          <li>Pas d&apos;événements à afficher pour l&apos;instant</li>
         )}
       </ul>
       {isLoggedIn ? (
@@ -127,10 +127,9 @@ function EventsPage() {
   );
 }
 
-export default EventsPage; 
+export default EventsPage;
 
 // ------------------------------
-
 
 // EventsPage.js
 
@@ -172,8 +171,6 @@ export default EventsPage;
 // };
 
 // export default EventsPage;
-
-
 
 // import { useState, useEffect } from 'react';
 // import axios from 'axios';
